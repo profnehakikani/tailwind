@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+NP+Hmong&family=Oswald:wght@200;300;400;500;600;700&family=Rubik+80s+Fade&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>    
+    <title>Blanquette – Restaurant WordPress Theme</title>
+</head>
+
+<body class="font-['Catamaran'] text-red-500">
+    <!-- header   -->
+    <header class="bg-[#0d2009] h-[99px]  inline-block w-full z-50 align-top fixed">
+        <div class="px-10 border-b items-center flex h-full justify-between relative">
+        <a href="#" class="mr-[70px] items-center flex relative h-[100px] max-h-full">
+            <img src="img/logo-light.svg">
+        </a>
+        <nav class="mr-auto h-full">
+            <ul class="items-center flex h-full relative whitespace-nowrap ">
+                <li class="h-full mr-[32px] ml-0 relative ">
+                    <a href="#" class="text-effect text-[#ffff] uppercase text-[14px] font-semibold items-center flex h-full relative cursor-pointer tracking-[.3em] " >
+                        <span class="home-menu relative align-baseline after:content-['\2666'] after:text-[#bba37e] after:text-[20px] after:block after:h-[7px] after:w-[7px] after:absolute after:left-5 after:top-4 ">Home
+                            <svg class="qodef-svg--menu-arrow qodef-menu-item-arrow absolute" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32 "></svg>
+                        </span>
+                    </a>
+                    <div class="down-second block absolute top-full left-[-39px] w-auto z-40 opacity-0 overflow-hidden invisible hover:visible hover:opacity-100">
+                        <div class="down-inner relative w-full inline-block align-top">
+                            <ul class="sub-menu relative top-auto visible opacity-100 bg-[#faf9f6] left-0 w-[220px] py-9" >
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span class="item-text">Main Home</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Restaurant Grid</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Bistro Home</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Restaurant Divided</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Fullscreen Home</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Left Menu Home</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Chef Showcase</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Interactive Links</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Restaurant Home</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Landing</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="h-full mr-[32px] mx-8 relative">
+                    <a href="#" class="text-[#ffff] uppercase text-[14px] font-semibold items-center flex h-full relative cursor-pointer tracking-[.3em]" >
+                        <!-- <span class="relative align-baseline after:content-['\2666'] after:text-[#bba37e] after:text-[20px] after:block after:h-[7px] after:w-[7px] after:absolute after:left-5 after:top-4"> -->Pages 
+                            <svg class="qodef-svg--menu-arrow qodef-menu-item-arrow absolute" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"></svg>   
+                        </span>
+                    </a>
+                    <div class="down-second block absolute top-full left-[-39px] w-auto z-40 opacity-0 overflow-hidden invisible hover:visible hover:opacity-100">
+                        <div class="down-inner relative w-full inline-block align-top">
+                            <ul class="sub-menu relative top-auto visible opacity-100 bg-[#faf9f6] left-0 w-[220px] py-9" >
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span class="item-text">About Us</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>About Me</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Our Team</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Our Menu</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Special Menu</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Booking</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Reservations</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Our History</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Get In Touch</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Contact Us</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span> Coming Soon</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="h-full mr-[32px] mx-8 relative">
+                    <a href="#" class="text-[#ffff] uppercase text-[14px] font-semibold items-center flex h-full relative cursor-pointer tracking-[.3em]" >
+                        <!--<span class="relative align-baseline after:content-['\2666'] after:text-[#bba37e] after:text-[20px] after:block after:h-[7px] after:w-[7px] after:absolute after:left-5 after:top-4">-->Blog
+                            <svg class="qodef-svg--menu-arrow qodef-menu-item-arrow absolute" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"></svg>   
+                        </span>
+                    </a>
+                    <div class="down-second block absolute top-full left-[-39px] w-auto z-40 opacity-0 overflow-hidden invisible hover:visible hover:opacity-100">
+                        <div class="down-inner relative w-full inline-block align-top">
+                            <ul class="sub-menu relative top-auto visible opacity-100 bg-[#faf9f6] left-0 w-[220px] py-9" >
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span class="item-text">Right Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Left Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>No Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Masonry</span>
+                                    </a>
+                                </li>    
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="h-full mr-[32px] mx-8 relative">
+                    <a href="#" class="text-[#ffff] uppercase text-[14px] font-semibold items-center flex h-full relative cursor-pointer tracking-widest tracking-[.3em]"  >
+                        <!--<span class="relative align-baseline after:content-['\2666'] after:text-[#bba37e] after:text-[20px] after:block after:h-[7px] after:w-[7px] after:absolute after:left-5 after:top-4">-->Shop
+                            <svg class="qodef-svg--menu-arrow qodef-menu-item-arrow absolute" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32"></svg>   
+                        </span>
+                    </a>
+                    <div class="down-second block absolute top-full left-[-39px] w-auto z-40 opacity-0 overflow-hidden invisible hover:visible hover:opacity-100">
+                        <div class="down-inner relative w-full inline-block align-top">
+                            <ul class="sub-menu relative top-auto visible opacity-100 bg-[#faf9f6] left-0 w-[220px] py-9" >
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span class="item-text">Right Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Left Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>No Sidebar</span>
+                                    </a>
+                                </li>
+                                <li class="menu-items px-[39px] relative align-baseline">
+                                    <a class="menu relative block my-[5px] font-light text-[#000] text-[16px] leading-[1.75em]"> 
+                                        <span>Masonry</span>
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div class="right-side h-full flex items-center ml-[50px] ">
+            <div class="number ml-[0px] mr-[25px] before:content-[''] table">
+                <h6 class="contact uppercase text-[14px] font-bold tracking-[.3em] leading-[1.714em] text-[#ac8d5b] break-words">
+                    <a href="#" class="number-color text-[#fff] relative before:content-[''] before:absolute bottom-[3px] left-[0px] scale-x-100 origin-right h-px border-b-2 translate-x-6 hover:opacity-80">+44 66 789 011</a>
+                </h6>
+            </div>
+            <div class="menu ml-[25px]  before:content-[''] table">
+                <a href="#" class="relative inline-block align-middle m-0 ">
+                    <span class="open relative visible ">
+                    <i class="fa-solid fa-bars text-[#fff] text-2xl hover:opacity-80 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300"></i>
+                </span>
+                </a>
+            </div>
+        </div>
+    </div>
+    </header>
+    <!-- main-banner  -->
+    <div class="main-banner bg-[#0d2009] h-[127vh] overflow-y-hidden bg-[url('img/h1-slider-img-005.jpg')] bg-[length:1150px_692.48px] bg-right-top bg-no-repeat bg-center relative top-[-100px] z-100">
+        <div class="short-title absolute block left-[125px] top-[218px] z-[10] visible">
+            <h2 class="short-text w-auto h-auto no-underline text-left leading-6 tracking-[5px] font-bold text-[14px] origin-[50%_50%] opacity-100 visible uppercase translate-y-[5rem] ml-[5px] text-[#ffff]">Our expertise</h2>
+            <div class="main-heding absolute block pointer-events-auto visible left-[-4px] top-[132px] z-[11]">
+            <h1 class="heding font-['Lora'] uppercase h-auto w-[650px] text-[#ffff] text-left leading-[81px] font-light text-[84px] origin-[50%_50%] opacity-100 visible">Exotic dishes</h1>
+            </div>
+            <div class="main-p absolute block left-[0px] top-[230px] z-[88] visible pointer-events-auto">
+                <p class="paragraph h-auto text-[#cfcfcf] no-underline w-[524px] text-left min-w-0 min-h-0 font-light origin-[50%_50%] bottom-[50px] visible text-[20px]  ">Tincidunt id aliquet risus feugiat in ante metus dictum vulputate mi sit amet mauris commodo quis. Tortor aliquam nulla facilisi cras fermentum odio. </p>
+            </div>
+        </div>
+        <!-- book table  -->
+        <div class="table absolute block left-[125px] top-[753px] z-[19] visible pointer-events-auto">
+            <div class="book z-[23] height-auto text-[#ffff] flex font-light text-[16px] opacity-100 visible leading-7 no-underline">
+                <div class="main-table text-left flex w-full flex-col pr-[25px] width-[200px]  block">
+                    <h4 class="text-[#ffff] font-['Lora'] uppercase text-[28px] mb-[5px]">Book A Table</h4>
+                    <span class="text-[18px]">*powered by OpenTable</span>
+                 </div>
+                <div class="flex items-center">
+                    <form class="form flex w-[79.5%] ">
+                        <div class="field form mr-[20px]  pl-[50px]">
+                            <select class="main-person text-[#000] px-[50px] py-[16px]" style="background-color: transparent !important; border: 1px solid #FFF; color: #FFF;">
+                                <option value="1" style="color: #000;">1 Person</option>
+                                <option value="1" style="color: #000;">2 Person</option>
+                                <option value="1" style="color: #000;">3 Person</option>
+                                <option value="1" style="color: #000;">4 Person</option> 
+                            </select>
+                        </div>
+                        <div class="field form mr-[25px]  pl-[50px]">
+                            <select class="main-person text-[#000] px-[50px] py-[16px]" style="background-color: transparent !important; border: 1px solid #FFF; color: #FFF;">
+                                <option value="1" style="color: #000;">03.09.2023</option>
+                                <option value="1" style="color: #000;">03.09.2023</option>
+                                <option value="1" style="color: #000;">03.09.2023</option>
+                                <option value="1" style="color: #000;">03.09.2023</option> 
+                            </select>
+                        </div>
+                        <div class="field form mr-[25px] pl-[50px]">
+                            <select class="main-person text-[#000] px-[50px] py-[16px]" style="background-color: transparent !important; border: 1px solid #FFF; color: #FFF;">
+                                <option value="1" style="color: #000;">11:00 am</option>
+                                <option value="1" style="color: #000;">11:00 am</option>
+                                <option value="1" style="color: #000;">11:00 am</option>
+                                <option value="1" style="color: #000;">11:00 am</option> 
+                            </select>
+                        </div>
+                        <div class="field form mr-[25px]  pl-[50px]">
+                            <button type="submit" class="btn bg-[#9b763b] hover:bg-[#a57f43] border-white  pt-[15px] pb-[13px] px-[51px] before:content-[''] before:absolute before:top-[50%] before:bg-[#bba37e] before:block before:h-[8px] before:w-[8px] before:origin-center before:translate-x-[-18px] before:translate-y-[-50%] before:rotate-45 z-[33]
+                            <!-- btn after   -->                        
+                            after:content-[''] after:absolute after:top-[50%] after:bg-[#bba37e] after:block after:h-[8px] after:w-[8px] after:origin-center after:translate-x-[65px] after:translate-y-[-50%] after:rotate-45 z-[33]">
+                                <span class="btn-decor text-[12px] font-bold tracking-[.3em] leading-[1.67em]">
+                                    Submit
+                                </span>
+                            </button>
+                        </div>
+                        
+                    </form>
+                </div>         
+            </div>
+        </div>
+    </div>
+
+    <!-- VARIOUS QUALITY -->
+    <section class="various  pb-[112px]  relative">
+        <div class="container pb-[112px] w-[1300px] min-w-[1300px] mx-auto my-0px flex relative">
+            <div class="column-100 w-full relative min-h-[1px] flex">
+                <div class="section-title text-center relative inline-block w-full align-top">
+                    <h2 class="various-title mt-[5px]  font-['Lora'] font-medium uppercase text-[#000] text-[50px] leading-[1.2em]">VARIOUS QUALITY SPECIALTIES MADE<br>
+                        WITH A PERSONAL TOUCH</h2>
+                </div>
+            </div>
+        </div>
+        <div class="container w-[1300px] min-w-[1300px] mx-auto my-0px flex relative">
+            <div class="column-100 w-full relative min-h-[1px] flex">
+                <div class="w-[60%] relative min-h-[1px] flex ">
+                    <div class="image-1 relative initial-block">
+                        <img src="img/h1-img-1-373x584.jpg" class="image h-[584px] max-w-full bg-content">
+                    </div>
+                    <div class="image-2 top-[16%] right-[-42%] text-left absolute w-full">
+                        <img src="img/h1-img-2-419x420.jpg">
+                    </div>
+                </div>
+                <div class="w-[40%] relative min-h-1 flex ml-[10%]">
+                    <div class="content-various content-center items-center pr-[1%] pl-[1%] flex relative w-full flex-wrap">
+                        <div class="main-various text-left relative initial-block w-full align-top">
+                            <h6 class="chefs mb-[-3px] uppercase text-[14px] font-bold text-[#ac8d5b] tracking-[.3em] leading-[1.714em] ">Chefs secrets</h6>
+                            <h3 class="main-truly mt-[5px] font-['Lora'] font-medium uppercase text-[#000] text-[35px] leading-[1.285em]">
+                                Truly exotic and appetizing cuisine for those special moments in life </h3>
+                            <p class="demo mt-[20px] font-light leading-[1.714em]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In cursus turpis massa tincidu dui ut ornare. Sodales neque sodales ut etiam. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+
+    <!-- video  -->
+    <section class="video ">
+        <div class="video-clip bg-[url('img/h1-video-img-1.8.jpg')] min-h-[753px] bg-no-repeat w-auto bg-center relative">
+            <svg class="qodef-svg--video-button absolute t-[50%] l-[50%] " style="" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="142px" height="142px" viewBox="0 0 142 142" style="enable-background:new 0 0 142 142;" xml:space="preserve"><circle cx="71" cy="71" r="68.5"></circle><polygon points="59.4,57.8 59.4,84.2 82.6,71.3"></polygon></svg>
+        </div>
+    </section>
+
+    <!-- slider section  -->
+    <section class="slider-section  pt-[98px] pb-[50px]">
+        <div class="container w-[1300px] min-w-[1300px] mx-auto my-0px flex relative ">
+            <div class="column-100 w-full relative min-h-[1px] flex z-[10]">
+                <div class="line relative inline-block w-full align-top overflow-visible pt-[212px] pb-[189px] z-[44] translate-x-0 duration-[0.15s] ease transition-transform before:content-[''] before:h-full before:w-[50vw] before:right-[100%] before:bg-[#000] before:top-[0px] z-[9999]">
+                <div class="color-line scale-x-100 relative w-[140%] h-[1px] bg-[#d6d6d6] origin-left ml-[30px]">
+                    <div class="line-inner w-[3333.33px] translate-x-0">
+                        <div class="line-inner1 w-[3333.33px] relative float-left" style="transform: translateY(calc(-50% - 2px));">
+                            <!-- text  -->
+                            <div class="begnnings  absolute left-[0px] w-full max-w-[86%] text-left pt-[48px]  pl-[10px]">
+                                <h6 class="date-range uppercase text-[14px] font-bold tracking-[.3em] leading-[1.714em] text-[#ac8d5b]">1989</h6>
+                                <h5 class="title mb-[2px] font-['Lora'] uppercase text-[#000] text-[21px] leading-[1.476em] font-medium">The beginnings</h5>
+                                <p class="content mt-[7px] text-left text-[16px] font-light leading-[1.476em]">Duis convallis incididun in tellus ed<br> veliut suspend pretium viverra<br> tortor isso.</p>
+                            </div>
+                            <div class="top-line relative top-[1px] text-[0px] opacity-1 left-[30px] invisible">
+                                <div class="line-icon inline-block relative z-1200 h-[10px] w-[10px] ml-[2px] rotate-45 align-middle bg-[#ef4444]"></div>
+                                <!-- <div class="line-icon after:content-['\2666'] after:text-[#bba37e] after:text-[20px] after:block after:h-[7px] after:w-[7px] after:absolute after:left-5 after:top-4"></div> -->
+                                <!-- <i class="fa-sharp fa-solid fa-square text-[#bba37e] top-[50%]"></i> -->
+                                <div class="color-line absolute w-full h-[1px] scale-x-100 color-[#ac8d5b] top-[50%] origin-left scale-x-100"></div>
+                            </div>
+                              <!-- logo  -->
+                            <div class="timeline-logo bottom-[65px] translate-y-[26px] absolute w-full">
+                                <img src="img/h1-icon-img-1.png" class="t-logo-main h-auto max-w-full align-middle">
+                            </div>
+                        </div>
+                    
+                        <!-- 2 -->
+                        <div class="timeline-logo2  left-[10%] translate-y-[26px] absolute w-full">
+                            <img src="img/h1-icon-img-2.png" class="t-logo-main h-auto max-w-full align-middle">
+                        </div>
+                            <!-- text  -->
+                            <div class="begnnings2 bottom-[65px] absolute left-[10%] w-full max-w-[86%] text-left pt-[48px]  pl-[10px]">
+                                <h6 class="date-range2 uppercase text-[14px] font-bold tracking-[.3em] leading-[1.714em] text-[#ac8d5b]">1990</h6>
+                                <h5 class="title2 mb-[2px] font-['Lora'] uppercase text-[#000] text-[21px] leading-[1.476em] font-medium">Break through</h5>
+                                <p class="content2 mt-[7px] text-left text-[16px] font-light leading-[1.476em]">Duis convallis incididun in tellus ed<br> veliut suspend pretium viverra<br> tortor isso.</p>
+                            </div>
+                                <div class="top-line2 relative top-[1px] opacity-1 left-[30px] invisible">
+                                    <div class="line-icon2 inline-block relative z-100 color-[#9b763b] h-[10px] w-[10px] ml-[2px] rotate-45 align-middle "></div>
+                                </div>
+                            </div> 
+                            <!-- 3 -->
+                         <!-- text  -->
+                         <div class="begnnings  absolute left-[35%] w-full max-w-[86%] text-left   pl-[10px]">
+                            <h6 class="date-range uppercase text-[14px] font-bold tracking-[.3em] leading-[1.714em] text-[#ac8d5b]">1995</h6>
+                            <h5 class="title mb-[2px] font-['Lora'] uppercase text-[#000] text-[21px] leading-[1.476em] font-medium">New locations</h5>
+                            <p class="content mt-[7px] text-left text-[16px] font-light leading-[1.476em]">Duis convallis incididun in tellus ed<br> veliut suspend pretium viverra<br> tortor isso.</p>
+                        </div>
+                        <div class="top-line relative top-[1px] text-[0px] opacity-1 left-[30px] invisible">
+                            <!-- <div class="line-icon inline-block relative z-1000 h-[10px] w-[10px] ml-[2px] rotate-45 align-middle" style="background-color:#ef4444;"></div> -->
+                            <div class="color-line absolute w-full h-[5px]  scale-x-100 color-[#ac8d5b] top-[50%] origin-left"></div>
+                        </div>
+                          <!-- logo  -->
+                        <div class="timeline-logo bottom-[65px] left-[35%] translate-y-[26px] absolute w-full">
+                            <img src="img/h1-icon-img-3.png" class="t-logo-main h-auto max-w-full align-middle">
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="timeline-logo2  left-[77%] translate-y-[26px] absolute w-full">
+                        <img src="img/h1-icon-img-4.png" class="t-logo-main h-auto max-w-full align-middle">
+                    </div>
+                        <!-- text  -->
+                    <div class="begnnings2 top-[-1px] absolute left-[77%] w-full max-w-[86%] text-left pt-[48px]  pl-[10px]">
+                        <h6 class="date-range2 uppercase text-[14px] font-bold tracking-[.3em] leading-[1.714em] text-[#ac8d5b]">1996</h6>
+                        <h5 class="title2 mb-[2px] font-['Lora'] uppercase text-[#000] text-[21px] leading-[1.476em] font-medium">Updating menus</h5>
+                        <p class="content2 mt-[7px] text-left text-[16px] font-light leading-[1.476em]">Duis convallis incididun in tellus ed<br> veliut suspend pretium viverra<br> tortor isso.</p>
+                        </div>
+                    <div class="top-line2 relative top-[1px] opacity-1 left-[30px] invisible">
+                        <div class="line-icon2 inline-block relative  color-[#9b763b] h-[10px] w-[10px] ml-[2px] rotate-45 align-middle "></div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SPECIAL TASTE  -->
+    <section class="special bg-[#F4F0EB] pt-[123px] pb-[123px] relative">
+        <div class="container w-[1300px] min-w-[1300px] mx-auto my-0px flex relative">
+            <div class="col-3 taste-column relative min-h-[1px] flex">
+                <!-- <div class="inner-special items-center content-center pr-[6%] flex relative w-full flex-wrap">
+                    <div class="special-img w-full relative">
+                        <div class="path-image w-full relative grid grid-rows-4 grid-cols-1 justify-center">
+                            <div class="image-main-special relative w-full grid justify-center items-center" style="grid-template-areas: 'overlap';">
+                                <img src="img/h1-img-8.png">
+                                <svg class="qodef-svg--outline color-[#]" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 410 572" style="enable-background:new 0 0 410 572;" xml:space="preserve"><g><path d="M205,1C92.3,1,1,99.8,1,221.6c0,2.2,0,4.4,0.1,6.6H1V571h204"></path><path d="M205,1c112.7,0,204,98.8,204,220.6c0,2.2,0,4.4-0.1,6.6h0.1V571H205"></path></g></svg>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                vn
+            </div>
+            <div class="col-3">fhjhj</div>
+        </div>
+    </section>
+
+    <!-- OUR EXCELLENT -->
+    <section class="our-excellent pt-[130px] ">
+        <div class="container w-[1300px] min-w-[1300px] mx-auto my-0px flex relative">
+            <div class="main-areya w-[40%] relative min-h-[1px] flex ">
+                <div class="areya-title content-center items-center mt-[-10px] pr-[16%] flex relative flex-wrap w-full mb-[20px]">
+                    <div class="our-title text-left relative inline-block w-full align-top">
+                        <h2 class="excellent mt-[5px] font-medium uppercase text-[#000] text-[42px] leading-[1.238em] break-words font-['Lora']">Our excellent service and top quality dishes are unmatched. Pick the best. </h2>
+                        <p class="excellent-p mt-[20px] font-light text-[17px]">Morbi non arcu risus quis. Elementum tempus donne egestas sed sed risus pretium quam vulputate. Etiam sit amet nisl purus. Lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor. Sed vulputate odio ut enim blandit tellus cras sed</p>
+                    </div>
+                    <div class="sign mt-[-7px] w-full relative align-right flex mr-auto ml-auto w-full">
+                        <div class="sign-img ml-auto" >
+                            <div class="sign-main-img justify-end flex flex-wrap w-full content-end mt-[20px]">
+                            <img src="img/h1-signature-img.png">
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[60%] relative min-h-[1px] flex ">
+                <div class="image-1 relative initial-block left-[5%]">
+                    <img src="img/h1-img-4-373x584.jpg" class="image h-[584px] max-w-full bg-content">
+                </div>
+                <div class="image-2 top-[16%] left-[47%] text-left absolute w-full">
+                    <img src="img/h1-img-5-419x420.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- column-img  -->
+    <section class="column mt-[120px] relative ">
+        <div class="section-container flex mr-[auto] ml-[auto] relative items-center">
+            <div class="glass-img w-[40%] relative min-h-[1px] flex">
+                <div class="img-glass content-start item-start mt-[-84px] pr-[14%] flex w-full flex-wrap relative">
+                    <img src="img/h1-img-006.jpg "  class="img-final-column h-auto max-w-[100%] block">
+                </div>
+            </div>
+        
+            <div class="glass-img w-[60%] relative min-h-[1px] flex">
+                <div class="img-glass content-end item-end mt-[-84px]  flex w-full flex-wrap relative">
+                    <img src="img/h1-img-007.jpg "  class="img-final-column h-auto max-w-[100%] block pt-[20%]">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review -->
+    <section class="review pt-[130px] relative">
+        <div class="container w-[1300px] min-w-[1300px] mx-auto my-0px flex relative items-center ">
+            <div class="main-review w-full">
+            <div class="quote items-center text-[#ac8d5b] ml-[45%] mb-[17px] ">
+                <svg class="qodef-svg--quote-testimonials " style="fill:none; stroke:currentcolor; stroke-miterlimit:10;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="75px" height="68px" viewBox="0 0 75 68" enable-background="new 0 0 75 68" xml:space="preserve"><g><path d="M14.62,66.814l-6.892-5.113c1.629-2.073,3.37-5.036,5.225-8.893   c1.852-3.852,3.408-8.114,4.669-12.784c1.257-4.667,1.667-9.225,1.223-13.672c-1.039,0.445-1.966,0.744-2.779,0.889   c-0.816,0.15-1.667,0.222-2.556,0.222c-3.113,0-5.857-1.073-8.227-3.223c-2.372-2.147-3.557-5.076-3.557-8.782   c0-4.297,1.296-7.743,3.891-10.338C8.208,2.53,11.358,1.23,15.064,1.23c5.781,0,10.116,2.039,13.006,6.114   c2.891,4.079,4.335,9.153,4.335,15.229c0,4.001-0.706,8.671-2.112,14.006c-1.41,5.336-3.446,10.638-6.114,15.896   C21.512,57.738,18.323,62.519,14.62,66.814z M55.527,66.814l-6.892-5.113c1.628-2.073,3.369-5.036,5.223-8.893   c1.853-3.852,3.41-8.114,4.67-12.784c1.258-4.667,1.667-9.225,1.222-13.672c-1.039,0.445-1.966,0.744-2.776,0.889   c-0.818,0.15-1.669,0.222-2.559,0.222c-3.112,0-5.855-1.073-8.227-3.223c-2.372-2.147-3.557-5.076-3.557-8.782   c0-4.297,1.296-7.743,3.893-10.338c2.589-2.591,5.741-3.891,9.448-3.891c5.779,0,10.113,2.039,13.005,6.114   c2.891,4.079,4.334,9.153,4.334,15.229c0,4.001-0.704,8.671-2.111,14.006c-1.409,5.336-3.445,10.638-6.112,15.896   C62.418,57.738,59.229,62.519,55.527,66.814z"></path></g></svg>
+            </div>
+            <div class="swiper-wrapper relative w-full h-full z-[1] flex box-content transition-transform">
+                <div class="swiper-content flex items-center px-[170px] flex-col">
+                    <h3 class="review-title font-medium items-center mb-[30px] font-['Lora'] text-[34px] text-center uppercase">Attis vulputate enim. Cras tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Eros in cursus.</h3>
+                    <div class="author flex m-[0px] flex-col items-center">
+                        <span class="name uppercase font-['Catamaran'] text-[14px] font-bold tracking-[.3em] leading-[1.714em] text-[#ac8d5b] mb-[5px]">Pauline Parks</span>
+                        <span class="food font-['Catamaran'] text-[14px] font-medium  leading-[1.714em]  mb-[5px]">Food critic</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- image  -->
+    <section class="image-main mt-[122px] mb-[50px] mx-[14.5%]  relative">
+        <div class="image-row flex mr-[auto] ml-[auto] relative flex w-full ">
+            <div class="img-inner-class mx-[-40px]">
+                <span class="img-1 clear-both w-2/3 pr-[111px] pl-[50px] pb-[80px] relative inline-block align-top w-full">
+                    <!-- px-[40px] -->
+                    <a href="#" style="display: inline-block;">
+                        <span class="final-img w-auto inline-block">
+                            <img src="img/client-img-1.png" class="attachment h-auto max-w-[100%] ">
+                        </span>
+                    </a>
+                </span>
+            </div>
+            <!-- 2 -->
+            <div class="img-inner-class mx-[-40px]">
+                <span class="img-1 clear-both w-2/3 pr-[111px]  pl-[50px] pb-[80px] relative inline-block align-top w-full">
+                    <a href="#" style="display: inline-block;">
+                        <span class="final-img w-auto inline-block">
+                            <img src="img/client-img-2.png" class="attachment h-auto max-w-[100%] ">
+                        </span>
+                    </a>
+                </span>
+            </div>
+            <!-- 3 -->
+            <div class="img-inner-class mx-[-40px]">
+                <span class="img-1 clear-both w-2/3 pr-[111px] pl-[50px] pb-[80px] relative inline-block align-top w-full">
+                    <a href="#" style="display: inline-block;">
+                        <span class="final-img w-auto inline-block">
+                            <img src="img/client-img-3.png" class="attachment h-auto max-w-[100%] ">
+                        </span>
+                    </a>
+                </span>
+            </div>
+            <!-- 4 -->
+            <div class="img-inner-class mx-[-40px]">
+                <span class="img-1 clear-both w-2/3 pr-[111px] pl-[50px] pb-[80px] relative inline-block align-top w-full">
+                    <a href="#" style="display: inline-block;">
+                        <span class="final-img w-auto inline-block">
+                            <img src="img/client-img-4.png" class="attachment h-auto max-w-[100%] ">
+                        </span>
+                    </a>
+                </span>
+            </div>
+            <!-- 5 -->
+            <div class="img-inner-class mx-[-40px]">
+                <span class="img-1 clear-both w-2/3 pr-[111px] pl-[50px] pb-[80px] relative inline-block align-top w-full">
+                    <a href="#" style="display: inline-block;">
+                        <span class="final-img w-auto inline-block">
+                            <img src="img/client-img-5.png" class="attachment h-auto max-w-[100%] ">
+                        </span>
+                    </a>
+                </span>
+            </div>
+            <!-- 6 -->
+            <div class="img-inner-class mx-[-40px]">
+                <span class="img-1 clear-both w-2/3 pr-[111px] pl-[50px] pb-[80px] relative inline-block align-top w-full">
+                    <a href="#" style="display: inline-block;">
+                        <span class="final-img w-auto inline-block">
+                            <img src="img/client-img-6.png" class="attachment h-auto max-w-[100%] ">
+                        </span>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </section>
+    <!-- footer  -->
+    <footer id="footer relative inline-block w-full align-top">
+        <div class="one-footer bg-[#f1ebe4] bg-center bg-no-repeat bg-cover relative ">
+            <div class="footer-2 py-[108px] w-[1300px] mx-auto my-[0px]">
+                <div class="main-footer text-center relative inline-block w-full align-top">
+                    <div class="footer-inner flex flex-wrap item-start mx-[-209px]">
+                        <div class="footer-left clear-both w-[50%] px-[209px] mb-[418px] relative inline-block align-top float-left">
+                            <div class="footer-left-main text-[#000]">
+                                <h5 class="our-partners mb-[10px] font-['Lora'] text-[21px] uppercase font-medium ">Our delivery partners </h5>
+                                <p class="lorem mb-[16px] text-[18px] font-light leading-[1.75em] font-['Catamaran']">Lorem ipsum dolor sit amet, consectetur elit, sed do eiusm od tempor ut vivid amet</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="js/tailwind.config.js"></script>
+</body>
+
+</html>
